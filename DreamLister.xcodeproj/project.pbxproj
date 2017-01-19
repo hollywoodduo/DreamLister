@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C954B2791E2FEA3800EC3892 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C954B2781E2FEA3800EC3892 /* ItemCell.swift */; };
 		C988AA461E2DA1BB00A18E21 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988AA3E1E2DA1BB00A18E21 /* Image+CoreDataClass.swift */; };
 		C988AA471E2DA1BB00A18E21 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988AA3F1E2DA1BB00A18E21 /* Image+CoreDataProperties.swift */; };
 		C988AA481E2DA1BB00A18E21 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988AA401E2DA1BB00A18E21 /* Item+CoreDataClass.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C954B2781E2FEA3800EC3892 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		C988AA3E1E2DA1BB00A18E21 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C988AA3F1E2DA1BB00A18E21 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C988AA401E2DA1BB00A18E21 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				C9E31F4C1E2EB2E000348E55 /* MaterialView.swift */,
+				C954B2781E2FEA3800EC3892 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C954B2791E2FEA3800EC3892 /* ItemCell.swift in Sources */,
 				C988AA491E2DA1BB00A18E21 /* Item+CoreDataProperties.swift in Sources */,
 				C988AA481E2DA1BB00A18E21 /* Item+CoreDataClass.swift in Sources */,
 				C988AA4B1E2DA1BB00A18E21 /* ItemType+CoreDataProperties.swift in Sources */,
